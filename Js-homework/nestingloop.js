@@ -20,11 +20,12 @@
 // 1 2 3 4
 // 1 2 3 4 5
 
-// 1ST METHOD
+//1ST METHOD
 // for(let i = 1 ; i <= 5; i++){
 //     for(let j = 1 ; j <= i; j++){
 //         process.stdout.write(j + " ")
-//     }process.stdout.write("\n")
+//     }
+//     console.log();
 // }  
 
 // 2nd METHOD
@@ -33,7 +34,7 @@
 //     for (let j = 1; j <= i; j++) {
 //         process.stdout.write(j + " ")
 //     }
-//         process.stdout.write("\n")
+//         console.log();
 // }
 
 //======================================================================
@@ -50,7 +51,7 @@
 //     for(let j = 1 ; j <= i; j++){
 //         process.stdout.write(String.fromCharCode(ch)+" ");
 //         ch++
-//     }process.stdout.write("\n")
+//     }console.log();
 // } 
 
 // 2ND METHOD
@@ -60,7 +61,7 @@
 //         process.stdout.write(String.fromCharCode(j) +" ");
 //         ch++;
 //     }
-//     process.stdout.write("\n" );
+//     console.log();
 // }
 //================================================================
 // A B C == increasing reverse pyramid small and capital 
@@ -79,7 +80,7 @@
 //     } 
 //     else process.stdout.write(String.fromCharCode(data) + " ");
 //   }
-//   process.stdout.write("\n");
+//   console.log();
 // }
 //==============================================================
 // Right triangle star pattern
@@ -91,7 +92,8 @@
 // for(let i = 1; i <= 4; i++){
 //     for(let j = 1 ; j <= i; j++){
 //         process.stdout.write("* ")
-//     } process.stdout.write("\n")
+//     } 
+//      console.log();
 // }
 //=========================================================
 // Downward Triangle start pattern
@@ -105,7 +107,8 @@
 //     for(let j = 1 ; j <= i; j++){
 
 //         process.stdout.write("* ")
-//     } process.stdout.write("\n")
+//     } 
+//      console.log();
 // }
 // ============================================================
 
@@ -124,7 +127,7 @@
 //   for(let j = 1; j <= i; j++){       // column j loop ke liye 
 //     process.stdout.write("*")       // agar star ke baad space denge to pyramid star pattern banega
 //   }
-//   process.stdout.write("\n")
+//   console.log();
 // }
 
 // pattern logic 
@@ -150,7 +153,7 @@
 //     for (let j = 1; j <= i; j++) { // column j loop ke liye 
 //         process.stdout.write("* ") // star ke baas space diya hai
 //     }
-//     process.stdout.write("\n")
+//     console.log();
 // }
 
 //=======================================================================
@@ -172,9 +175,9 @@
 //         process.stdout.write(" ")
 //     }
 //     for (let j = 1; j <= i; j++) { // column j loop ke liye 
-//         process.stdout.write("* ") // star ke baas space diya hai
+//         process.stdout.write("* ") // star ke baad space diya hai
 //     }
-//     process.stdout.write("\n")
+//     console.log();
 // }
 // for (let i = 1; i < 5; i++) {
 //     for (let k = 1; k <= i; k++) {
@@ -183,7 +186,7 @@
 //     for (let j = 1; j < 5 - i; j++) {
 //         process.stdout.write("* ")
 //     }
-//     process.stdout.write("\n")
+//     console.log();
 // }
 
 
@@ -196,7 +199,7 @@
 //     for (let j = 1; j <= 1 * i - 1; j++) {
 //         process.stdout.write("* ")
 //     }
-//     process.stdout.write("\n")
+//     console.log();
 // }
 // for (let i = 6 - 1; i >= 1; i--) {
 //     for (let j = 1; j <= 6 - i; j++) {
@@ -205,7 +208,7 @@
 //     for (let j = 1; j <= 1 * i - 1; j++) {
 //         process.stdout.write("* ")
 //     }
-//     process.stdout.write("\n")
+//     console.log();
 // }
 
 //======================================================================

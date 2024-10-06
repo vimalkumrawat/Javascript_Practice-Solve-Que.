@@ -1,3 +1,9 @@
+// Wap to print table of any number ?
+// let n =  5;
+// for(let i = 1; i <= 10 ; i++){
+//     console.log(n*i);
+// }
+//====================================================
 // Que.1 wap to calculate sum of even number and odd number into one digit positive ?
 // let num1 = 0
 // let num2 = 0
@@ -10,7 +16,7 @@
 // }
 // console.log("sum of even number",num1, "sum of odd number",num2)
 
-//####################################################################### 
+//======================================================================= 
     // let sum = 0
     // for ( let i=1; i<=9; i++){
     //     if(i%2==0)
@@ -25,7 +31,7 @@
     //         sum = sum+i
     // }
     // console.log("odd number",sum);
-//####################################################################################
+//=====================================================================
 
 // Que.2 Wap to check prime number in for loop
 //  let num = 7
@@ -41,10 +47,7 @@
 //     console.log("not a prime number");
 //  }
 
-
-
-
-// #####################################################################################
+//==========================================================================
 
 // Que.3 Wap to display 1 to 10 and 10 to 1 using single for loop 
 
@@ -56,7 +59,7 @@
     //     }
     // } 
 
-//##########################################################
+//========================================================================
 
 // Que.4 wap to fibonacci series ?
 // let num = 10
@@ -71,8 +74,7 @@
 //     c = a+b 
 // }
 
-
-//##########################################################
+//=====================================================================
 
 // Que.5 wap to calculate square and cube of one digit positive number ?
 
@@ -85,7 +87,7 @@
 //    cube = i*i*i
 //     console.log("cube of ",i,"=", +cube);
 //  } 
-//##########################################################
+//========================================================================
 
 //Que.6 Wap to reverse any digit number using for loop ?
 // Without Loop solve
@@ -113,6 +115,29 @@
 // }
 //     console.log("Result is", res);
 
+// let i = 1 
+// do {
+//     console.log("hello");
+//     i++
+// } while(i>10)
 
+
+// const number = 123456;
+// let sum = 0;
+// for(i = 0; i <= number; i++){
+
+//     sum = sum + i;
+// }
+// console.log(sum);
+
+//=====================================
+// Que.7 find the factorial number ?
+// let number  = 5
+// let factorial = 1
+
+// for (let i = 1; i<=number; i++){
+//     factorial = factorial*i
+// }
+// console.log(factorial);
 
 
