@@ -138,75 +138,96 @@
 
 // =============================================
 
-class marks{
-    acceptInfo(phy,chem,math,eng,hin){
-        this.phy = phy
-        this.chem = chem
-        this.math = math
-        this.eng = eng 
-        this.hin = hin 
-    }
-    displayInfo(){
-        let flag=true
-    let totalmarks=0
-    let c=0
-    let fsubject=""
-    let message=""
-    let gm=0
-    let mark1 = [this.phy,this.chem,this.math,this.eng,this.hin]
-    for(let m in mark1){
-    if(mark1[m]<0 || mark1[m]>100){
-        flag=false;
-        message=`Invalid marks in ${m} subject, Assigned Marks should be 0 to 100`
-        break
-    }
-    else
-    {
-        if(mark1[m]<33){
-            fsubject+=m+" "
-            gm=mark1[m]
-            c++;
-        }
-        else{
-            totalmarks+=mark1[m];
-        }
-    }
-}
+// class marks{
+//     acceptInfo(phy,chem,math,eng,hin){
+//         this.phy = phy
+//         this.chem = chem
+//         this.math = math
+//         this.eng = eng 
+//         this.hin = hin 
+//     }
+//     displayInfo(){
+//         let flag=true
+//     let totalmarks=0
+//     let c=0
+//     let fsubject=""
+//     let message=""
+//     let gm=0
+//     let mark1 = [this.phy,this.chem,this.math,this.eng,this.hin]
+//     for(let m in mark1){
+//     if(mark1[m]<0 || mark1[m]>100){
+//         flag=false;
+//         message=`Invalid marks in ${m} subject, Assigned Marks should be 0 to 100`
+//         break
+//     }
+//     else
+//     {
+//         if(mark1[m]<33){
+//             fsubject+=m+" "
+//             gm=mark1[m]
+//             c++;
+//         }
+//         else{
+//             totalmarks+=mark1[m];
+//         }
+//     }
+// }
 
-if(flag){
-   if(c==0 || c==1 && gm>=28){
+// if(flag){
+//    if(c==0 || c==1 && gm>=28){
       
-      let per =(c==0)?totalmarks/5:(totalmarks+33-gm)/5;
-      if(per>33 && per<45){
-        message=`Congrates you are pass with third division and percentage is  ${per.toFixed(2)}`
-      }
-      else if(per<60){
-          message=`Congrates you are pass with second division and percentage is  ${per.toFixed(2)}`
-      }
-      else
-      {
-        message=`Congrates you are pass into first division and percentage is ${per.toFixed(2)}`
-      }
-      if(c==1){
-        message += `Pass by grace and grace mark is ${(33-gm)} grace subject is ${fsubject}`
-      }
-   }
-   else if(c==1){
-    message=`Try again you are supp in ${fsubject}`
-   }
-   else
-   {
-    message=`Try again you are failed in ${fsubject}`
-   }
-   console.log(message)
-}
-else
-{
-    console.log(message)
-}
-    }
-}
+//       let per =(c==0)?totalmarks/5:(totalmarks+33-gm)/5;
+//       if(per>33 && per<45){
+//         message=`Congrates you are pass with third division and percentage is  ${per.toFixed(2)}`
+//       }
+//       else if(per<60){
+//           message=`Congrates you are pass with second division and percentage is  ${per.toFixed(2)}`
+//       }
+//       else
+//       {
+//         message=`Congrates you are pass into first division and percentage is ${per.toFixed(2)}`
+//       }
+//       if(c==1){
+//         message += `Pass by grace and grace mark is ${(33-gm)} grace subject is ${fsubject}`
+//       }
+//    }
+//    else if(c==1){
+//     message=`Try again you are supp in ${fsubject}`
+//    }
+//    else
+//    {
+//     message=`Try again you are failed in ${fsubject}`
+//    }
+//    console.log(message)
+// }
+// else
+// {
+//     console.log(message)
+// }
+//     }
+// }
 
-let obj = new marks()
-obj.acceptInfo(35,60,100,100,100)
-obj.displayInfo()
+// let obj = new marks()
+// obj.acceptInfo(35,60,100,100,100)
+// obj.displayInfo()
+
+//====================================================================
+// Que.5) wap to create salary calculator where basic ,TA ,DA, Comm, PF, No of leave passde by users ? 
+
+// class Salary{
+//     acceptInfo(basic,ta,da,comm,pf){
+//         this.basic = basic
+//         this.ta = ta
+//         this.da = da
+//         this.comm = comm
+//         this.pf = pf
+//     }
+//     displayInfo()
+//     {
+//         let totalSalary = (this.basic + this.ta + this.da + this.comm - this.pf);
+//         console.log("Total Salary: " + totalSalary.toFixed(2));
+//     }
+// }
+// let obj = new Salary()
+// obj.acceptInfo(25000,1500,500,2000,15000)
+// obj.displayInfo()
