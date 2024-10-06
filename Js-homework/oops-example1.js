@@ -126,4 +126,9 @@
 // obj.rno = 1002;
 // obj.name = "stu2";
 
+let obj1 = Object.create(student);
+obj1.rno = 1003;
+obj1.name = "stu3";
+
 // console.log(obj.stuinfo());
+console.log(obj1.stuinfo());
